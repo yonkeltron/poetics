@@ -1,0 +1,105 @@
+---
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+import Haiku from "../../components/Haiku.astro";
+
+const styles = "mt-10 text-gray-700 text-xl font-serif";
+---
+
+<InstallmentLayout
+  title="Winter 2022: In Morning's Chill"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-gray-50 p-5">
+    <h1 class="mt-5 text-3xl text-gray-700">In Morning's Chill</h1>
+    <h2 class="mt-5 text-2xl text-gray-700">
+      Barely Passable Haiku by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl text-gray-700">Winter 2022</h3>
+  </header>
+
+  <main class="mx-auto mt-5 leading-7">
+    <Haiku styles={styles}>
+      <p>An empire of white</p>
+      <p>Fallen</p>
+      <p>From skies on high</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>רוח בעצים</p>
+      <p>אות השמש בשלג</p>
+      <p>דרך של הציפורים</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The empty bowl of winter</p>
+      <p>Along snowy ground</p>
+      <p>Waits for blossoms</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Frosted grass</p>
+      <p>Resists the gale</p>
+      <p>In morning's chill</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Spreading glimmers</p>
+      <p>Of spring's renewal</p>
+      <p>Chased away by shadow</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>אצבעות מכיס</p>
+      <p>ישררות לכפפות שלי</p>
+      <p>עור אדום בקר</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>How the grey</p>
+      <p>Sticks to squirrels</p>
+      <p>Who trample through slush</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>As if the rice</p>
+      <p>Sticking to the pot</p>
+      <p>Isn't the point</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Impenetrable crystallization</p>
+      <p>Before a drive</p>
+      <p>Chipping away</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The vinegar in</p>
+      <p>Ice water</p>
+      <p>Burns anyway</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Recollection unclear</p>
+      <p>The rearview mirror fogged</p>
+      <p>Ice everywhere</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Through cold clarity</p>
+      <p>A lone hawk glides</p>
+      <p>As mourning doves quiet</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Sweet and bitter</p>
+      <p>Cool too soon</p>
+      <p>Cocoa steams</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Does anyone</p>
+      <p>Care to</p>
+      <p>Remember</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>

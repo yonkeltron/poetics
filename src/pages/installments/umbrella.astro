@@ -1,0 +1,69 @@
+---
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+import Haiku from "../../components/Haiku.astro";
+
+const styles = "mt-12 text-gray-800 text-2xl";
+---
+
+<InstallmentLayout
+  title="Spring 2022: Umbrella?"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-yellow-300 p-5">
+    <h1 class="mt-5 text-3xl text-gray-700">Umbrella?</h1>
+    <h2 class="mt-5 text-2xl text-gray-700">
+      Profoundly mediocre Haiku by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl text-gray-700">Spring 2022</h3>
+  </header>
+
+  <main class="mx-auto mt-5 mb-5 leading-7">
+    <Haiku styles={styles}>
+      <p>The violet blooms</p>
+      <p>Like a knife across</p>
+      <p>Winter's throat</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Golden dust swirls</p>
+      <p>Goose wings</p>
+      <p>Flapping home</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Greening grass</p>
+      <p>Sprouting buds</p>
+      <p>Awakening</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Cardinals</p>
+      <p>Visiting</p>
+      <p>An empty feeder</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Sweet smells</p>
+      <p>Verdant greens</p>
+      <p>A passing storm</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Sunshine cut short</p>
+      <p>A pregnant breeze</p>
+      <p>Umbrella?</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Just a short walk</p>
+      <p>Between meetings</p>
+      <p>Air thick like syrup</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Shorts</p>
+      <p>Flip flops</p>
+      <p>Puddles</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>

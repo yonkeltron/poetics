@@ -1,0 +1,11 @@
+---
+interface Props {
+  styles: string;
+}
+
+const { styles } = Astro.props;
+---
+
+<section class={styles}>
+  <slot />
+</section>

@@ -1,0 +1,65 @@
+---
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+import Haiku from "../../components/Haiku.astro";
+
+const styles = "mt-7 mx-7 text-gray-900 text-3xl font-serif";
+---
+
+<InstallmentLayout
+  title="Summer 2022: A Touch of Dry"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-sky-800 p-5 text-white font-serif">
+    <h1 class="mt-5 text-3xl">A Touch of Dry</h1>
+    <h2 class="mt-5 text-2xl">
+      Barely recognizable as poetry by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl">Summer 2022</h3>
+  </header>
+
+  <main class="leading-7 mb-5 mx-auto py-5 bg-gray-300">
+    <Haiku styles={styles}>
+      <p>Irrationally</p>
+      <p>Sunshine streams in</p>
+      <p>An errant yawn</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Above the storm</p>
+      <p>A lurking moon</p>
+      <p>Hides</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Dew drops</p>
+      <p>Patiently</p>
+      <p>Waiting for dawn</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>A desperate blot</p>
+      <p>Handkerchief is chief</p>
+      <p>Swampass</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Birds along the skyline</p>
+      <p>Breezes pass our faces</p>
+      <p>Whoosh</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>הרים סביב לדשה</p>
+      <p>בלי צל קבוע ובלי רוח משמעותית</p>
+      <p>מתחת לשמים</p>
+      <p>היום עובר בקצב דבש</p>
+      <p>השמש עוד לא אייפה</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Hoot, holler, cheer</p>
+      <p>A white blur over grass</p>
+      <p>Play ball!</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>

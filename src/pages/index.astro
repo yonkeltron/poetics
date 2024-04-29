@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CollectionLink from "../components/CollectionLink.astro";
+---
+
+<Layout title="Poetics, experimental.">
+  <header class="font-mono my-5 font-bold">
+    <h1 class="text-4xl">Poetics, experimental.</h1>
+    <h2 class="text-3xl">Don't say I didn't warn you.</h2>
+  </header>
+
+  <main class="max-w-prose leading-7 font-mono">
+    <CollectionLink
+      url="/installments/a-touch-of-dry"
+      title="Summer 2022: A Touch of Dry"
+    />
+
+    <CollectionLink
+      url="/installments/umbrella"
+      title="Spring 2022: Umbrella?"
+    />
+
+    <CollectionLink
+      url="/installments/in-mornings-chill"
+      title="Winter 2022: In Morning's Chill"
+    />
+
+    <CollectionLink
+      url="/installments/this-fallen-world"
+      title="Fall 2021: This Fallen World"
+    />
+  </main>
+</Layout>

@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string;
+  url: string;
+}
+
+const { title, url } = Astro.props;
+---
+
+<h1
+  class="mb-5 text-3xl underline decoration-black decoration-dotted hover:decoration-solid underline-offset-4"
+>
+  <a href={url}>{title}</a>
+</h1>
