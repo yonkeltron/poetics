@@ -1,0 +1,75 @@
+---
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+import Haiku from "../../components/Haiku.astro";
+
+const styles = "mt-7 mx-7 text-gray-900 text-3xl font-serif";
+---
+
+<InstallmentLayout
+  title="Summer 2024: I Can Hear Honks"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-gray-700 p-5 text-white font-serif">
+    <h1 class="mt-5 text-3xl">I Can Hear Honks</h1>
+    <h2 class="mt-5 text-2xl">
+      Writing you might mistake for poetry by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl">Winter 2024</h3>
+  </header>
+
+  <main class="leading-7 mb-5 mx-auto py-5 bg-gray-300">
+    <Haiku styles={styles}>
+      <p>Feeling the wind bite</p>
+      <p>Why does sunlight</p>
+      <p>Not banish the chill</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Rustle of leaves</p>
+      <p>Muffled by snowfall</p>
+      <p>Such brave Squirrels</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The deer prints</p>
+      <p>In the fresh powder</p>
+      <p>Lead only to poop</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>בין הקר והחושך</p>
+      <p>חפסתי שלבווה</p>
+      <p>ומצעתי רק את הירח</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>עצים עירומים</p>
+      <p>שאין להם דם</p>
+      <p>יש שורשים</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Walking in sunlight</p>
+      <p>Too warm for my coat</p>
+      <p>Too cold to remove it</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Searching past geese</p>
+      <p>Occupying the park</p>
+      <p>I can hear honks!</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Amidst slushy streets</p>
+      <p>Half frozen and dirty</p>
+      <p>My boots get wet</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The empty garden</p>
+      <p>Sits waiting</p>
+      <p>Ready for spring</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>
