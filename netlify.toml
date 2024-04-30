@@ -1,0 +1,8 @@
+[build]
+publish = "dist/"
+
+# Default build command.
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "21.7.1"
