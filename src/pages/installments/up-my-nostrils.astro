@@ -1,0 +1,48 @@
+---
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+import Haiku from "../../components/Haiku.astro";
+
+const styles = "mt-12 text-emerald-800 text-2xl font-sans-serif";
+---
+
+<InstallmentLayout title="Spring 2024: Up My Nostrils">
+  <header class="bg-emerald-500 text-white p-5">
+    <h1 class="mt-5 text-3xl">Spring 2024: Up My Nostrils</h1>
+    <h2 class="mt-5 text-2xl">
+      Not-So-Valiant Attempts at Poetry by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl">Spring 2024</h3>
+  </header>
+
+  <main class="mx-auto p-5 leading-7">
+    <Haiku styles={styles}>
+      <p>Wild violets thrive in light.</p>
+      <p>Wordlessly expanding?</p>
+      <p>As we all must!</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Spring breeze so soft.</p>
+      <p>Ruined by gnats,</p>
+      <p>Up my nostrils.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Daffodils precede tulips.</p>
+      <p>Shockingly colored blossoms</p>
+      <p>Heralding new growth.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>New grass warmed by sun.</p>
+      <p>Clovers flower without fear,</p>
+      <p>Heedless of the mower.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Another "surprise" rainstorm.</p>
+      <p>Fat raindrops falling fast on,</p>
+      <p>To sturdy plants.</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>
