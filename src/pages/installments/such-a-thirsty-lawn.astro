@@ -1,0 +1,69 @@
+---
+import Haiku from "../../components/Haiku.astro";
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+
+const styles = "mt-8 mx-8";
+---
+
+<InstallmentLayout
+  title="Summer 2024: Such A Thirsty Lawn"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-yellow-400 p-5 text-white">
+    <h1 class="mt-5 text-3xl">Such A Thirsty Lawn</h1>
+    <h2 class="mt-5 text-2xl">
+      Various attempts at written poetry by Jonathan E. Magen
+    </h2>
+    <h3 class="mt-5 text-2xl">Summer 2024</h3>
+  </header>
+
+  <main
+    class="leading-8 mb-8 mx-auto py-5 text-gray-900 text-2xl font-serif border-b-8 border-yellow-400"
+  >
+    <Haiku styles={styles}>
+      <p>Tone it down.</p>
+      <p>Shabbat getting ever earlier,</p>
+      <p>As we count down.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The sun beats down.</p>
+      <p>Shade yielding no respite,</p>
+      <p>From the horror.</p>
+      <p>Such <em>close</em> stickiness from,</p>
+      <p>The thickest humidity.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Water: confiscated.</p>
+      <p>The ballpark wants you to have,</p>
+      <p>Some twelve-dollar beers.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Pits in a bowl.</p>
+      <p>I ate the last,</p>
+      <p>Several cherries.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>The shrubs wither.</p>
+      <p>Neighborhood gardens? Stunted.</p>
+      <p>Such a thirsty lawn.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>On the floor.</p>
+      <p>Such beautiful writing,</p>
+      <p>And structure,</p>
+      <p>Recall our darkness.</p>
+      <p>Chanting echoes without repetition.</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>אור היום וחם הלילה</p>
+      <p>הרגו את הפרחים</p>
+      <p>ודשא ירביצני</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>
