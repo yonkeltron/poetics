@@ -1,0 +1,63 @@
+---
+import Haiku from "../../components/Haiku.astro";
+import InstallmentLayout from "../../layouts/InstallmentLayout.astro";
+
+const styles = "mt-12 mx-8";
+---
+
+<InstallmentLayout
+  title="Summer 2025: Licked Clean By The Light"
+  extraStyles="m-auto max-w-prose pt-3"
+>
+  <header class="bg-yellow-600 p-5 text-white">
+    <h1 class="mt-5 text-4xl">Licked Clean By The Light</h1>
+    <h2 class="mt-5 text-3xl">What even is this by Jonathan E. Magen</h2>
+    <h3 class="mt-5 text-2xl">Summer 2025</h3>
+  </header>
+
+  <main
+    class="leading-8 mb-8 mx-auto py-5 text-gray-900 text-2xl font-serif border-b-8 border-yellow-600"
+  >
+    <Haiku styles={styles}>
+      <p>The way heat rises.</p>
+      <p>Carrying comfort</p>
+      <p>A sacrifice’s smoke!</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>An effervescent creek.</p>
+      <p>Dries beneath golden sun,</p>
+      <p>Licked clean by the light.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Water: confiscated.</p>
+      <p>The ballpark wants you to have,</p>
+      <p>Some twelve-dollar beers.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>Bless the rain.</p>
+      <p>And its storms,</p>
+      <p>Flooding me.</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>United together.</p>
+      <p>Smells and sounds.</p>
+      <p>Catastrophic kisses.</p>
+    </Haiku>
+
+    <Haiku styles={`${styles} text-right`}>
+      <p>רשימת היום בלו״ז</p>
+      <p>אין שום דבר שחדש</p>
+      <p>מתחת לשמש</p>
+    </Haiku>
+
+    <Haiku styles={styles}>
+      <p>More chafing sweat?</p>
+      <p>Really now, again,</p>
+      <p>Is this what we’re doing?</p>
+    </Haiku>
+  </main>
+</InstallmentLayout>
